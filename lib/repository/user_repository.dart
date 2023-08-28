@@ -27,7 +27,7 @@ class UserRepository {
           .createUserWithEmailAndPassword(email: email, password: password);
 
       // Après la création de l'utilisateur, met à jour son profil avec le nom fourni.
-      await result.user?.updateProfile(displayName: name);
+      await result.user?.updateDisplayName(name);
 
       // Recharge l'utilisateur après la mise à jour du profil pour obtenir les données à jour.
       await result.user?.reload();

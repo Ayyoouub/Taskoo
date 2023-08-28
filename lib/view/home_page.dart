@@ -36,8 +36,7 @@ class HomePage extends StatelessWidget {
             // Un widget pour afficher une image à partir d'un actif.
             // Vous devez remplacer 'path_to_your_logo.png' par le chemin d'accès réel de votre logo dans le dossier d'actifs.
             Image.asset(
-                'path_to_your_logo.png'), // Remplacez par le chemin de votre logo
-
+                'logo_task.png'), // Remplacez par le chemin de votre logo
             // Un widget Text pour afficher un texte.
             const Text("Bienvenue sur l'application!"),
           ],
