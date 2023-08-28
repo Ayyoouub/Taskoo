@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "381801880243",
+    "project_id": "taskooapp",
+    "storage_bucket": "taskooapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381801880243:android:7071fae9c10d26ea99aec6",
+        "android_client_info": {
+          "package_name": "com.example.taskoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381801880243-n0ktsqe0vnq1cn3sahh269omer6fnn74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJfCnFew8Gx9UOJXyNL3O83d34NMkTaDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381801880243-n0ktsqe0vnq1cn3sahh269omer6fnn74.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "381801880243-g2p4576pfne5iiqvdirhhnh4hv3e62j1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.taskoo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
