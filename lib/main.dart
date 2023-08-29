@@ -20,11 +20,11 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // Initialise Firebase pour votre application.
   await Firebase.initializeApp();
-  runApp(const MyApp());
+  runApp(const TaskooApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class TaskooApp extends StatelessWidget {
+  const TaskooApp({super.key});
 
   @override
   Widget build(BuildContext context) {
